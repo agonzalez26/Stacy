@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Painting By Jose</title>
+
+    <style media="screen">
+        body, html{height:100%; font-family: 'Jua', sans-serif;}
+        a, .fa-phone, .fa-envelope, .fa-map-marker{color:black;}
+        .fa-phone:hover, .fa-envelope:hover, .fa-map-marker:hover{color:#2096BA;}
+        #home{background-image: url("hero-house.jpg"); position: relative; z-index: -1;background-size: cover;
+        background-repeat: no-repeat; background-position: center;height: 100%;}/*Photo by Cathryn Lavery on Unsplash*/
+        #home-text{height:100%;}
+        /* #home-text{ position: absolute;top:50%; left:50%; transform: translate(-50%,-50%); color:white;} */
+        .bg-overlay{content:""; opacity: .55; background-color:rgb(33,37,41);bottom:0;
+        position:absolute; top:0; right:0; left:0; bottom:0;}
+        #contact-email {background-color: #2096BA; color:white; border-radius:5px;}
+        .btn {background-color:#2096BA; border-radius: 5px;}
+        .btn:hover {background-color:	white; color: #2096BA;}
+        .section {padding: 5rem 3rem;}
+        .section h2{color:#2096BA;}
+        .card{margin: 2rem 0;}
+        #contact .col-md-4 {margin: 2rem 0;}
+        #contact a{color:black;}
+        #contact
+        /* a.#contact-email:hover{color:white;} */
+        #sections .nav-link:hover{border-bottom: 3px solid #2096BA;}
+        #socials .nav-link:hover{color:#2096BA;}
+        .footer a{color:white;}
+        .footer a:hover{color:#2096BA;}
+        /* .footer-icons {color:white;} */
+
+        /* .card-img-top img{max-width: 300px; height:auto;} */
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light border-bottom bg-white">
+        <div class="container">
+            <!-- Company's Logo -->
+            <a class="navbar-brand " href="index.html">
+                <img src="" alt="Alma Gonzalez">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-items-center" id="navbarCollapsable">
+                <ul class="navbar-nav mr-auto flex-row " id="socials">
+                    <li class="nav-item-divider">
+                        <span class="nav-link">
+                            <span></span>
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/agonzalez26" class="nav-link">
+                            <i class="fab fa-github"></i>
+                            <span class="d-lg-none ml-2 mx-3"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/in/almagonzalez26/" class="nav-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="d-lg-none ml-2 mx-3"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://instagram.com/this.almagonzalez" class="nav-link">
+                            <i class="fab fa-instagram"></i>
+                            <span class="d-lg-none ml-2 mx-3"></span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto " id="sections">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link slide-home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link slide-services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link slide-portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link slide-about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link slide-contact">Contact</a>
+                    </li>
+                    <li class="nav-item-divider">
+                        <span class="nav-link">
+                            <span></span>
+                        </span>
+                    </li>
+                    <li class="nav-item px-2 text-white" id="contact-email">
+                        <a href="mailto:this.almagonzalez@gmail.com" class="nav-link">Hire Me</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <style media="screen">
+        /* @media screen and (max-width:576){
+            .
+        } */
+    </style>
+    <section class="section" id="home">
+      <div class="bg-overlay"></div>
+      <div class="container" style="position:relative;z-index:4;height:100%;">
+        <div class="row justify-content-center align-items-center" id="home-text">
+          <div class="col-12 col-md-8 col-lg-7 text-center">
+            <h2 class="text-white mb-4">Alma Gonzalez</h2>
+			<p class="lead text-white mb-5" >Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light" id="services">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 text-center">
+            <h2>Services</h2>
+            <p>Designing a sohpisticated website for your business needs.</p>
+            <a target="_blank" href="https://drive.google.com/open?id=1rhTItU8qW4ZGbJkjHaISwU-obck2b2BM" class="btn btn-primary" >Resumé</a>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card mx-0">
+              <div class="card-img-top py-2">
+                <span class="fa-layers fa-fw fa-7x">
+                  <i class="fas fa-laptop" data-fa-transform="shrink-9 up-3" ></i>
+                  <i class="fas fa-mobile-alt" data-fa-transform="shrink-10 down-4.2 left-4"></i>
+                  <i class="fas fa-tablet-alt" data-fa-transform="shrink-10 down-4.2 right-4"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Fully Responsive</h4>
+                <p class="card-text text-muted">Website looks amazing on any device regardless of screen size to have a natural fit</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-img-top py-2">
+                <i class="fas fa-chart-line fa-7x"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">SEO Injection</h4>
+                <p class="card-text text-muted">Utilizing keywords to easily rank your website on the internet quicker</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-img-top py-2">
+                <i class="fas fa-pencil-alt fa-7x"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Custom Design</h4>
+                <p class="card-text text-muted">Your preference of colors, fonts, and styles to make the site fit for you</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section bg-white" id="portfolio">
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+              <h2>My Portfolio</h2>
+              <p>Some examples of websites and templates I have created</p>
+            </div>
+          </div>
+          <div class="row card-deck"><!--make the cards-->
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-img-top">
+                  <a href="#">
+                    <img class="rounded img-fluid" src="hero-writing.jpg" alt="Photo by Cathryn Lavery on Unsplash">
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title">Website 1</h4>
+                  <p class="card-text">This is a little diescription of the website example 1</p>
+                  <a href="http://almagonzalez.me" class="btn btn-primary">View Live</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-img-top">
+                  <a href="#">
+                    <img class="rounded img-fluid" src="hero-writing.jpg" alt="Photo by Cathryn Lavery on Unsplash">
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Website 2</h4>
+                  <p class="card-text">This is a little diescription of the website example 1</p>
+                  <a href="#" class="btn btn-primary">View Live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="section bg-light" id="about">
+        <div class="container" >
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6 text-center">
+              <h2>About Alma</h2>
+            </div>
+          </div>
+          <div class="row text-center">
+              <div class="col-md-6">
+                <img  class="img-fluid" src="" alt="">
+              </div>
+              <div class="col-md-6">
+
+              </div>
+            <div class="col-md-8 m-auto">
+              <h5>Alma Gonzalez is a web developer dedicated to making the website
+                 of your company's dreams</h5>
+            </div>
+        </div>
+    </section>
+    <section class="section bg-white" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 text-center">
+            <h2>Let's Get in Touch</h2>
+            <h5 class="my-2">Now is your chance to get together and build something beautiful</h5>
+            <a href="mailto:alma.gonzalez24@gmail.com" class="btn btn-primary my-3 px-2" >Let's Talk</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="text-center mb-5 mb-md-0">
+              <a href="mailto:alma.gonzalez24@gmail.com">
+                <div class="text-primary mb-4">
+                  <span>
+                    <i class="fas fa-envelope fa-3x"></i>
+                  </span>
+                </div>
+            </a>
+            <a href="mailto:alma.gonzalez24@gmail.com">
+                <h4 class="mb-3">Email me @:</h4>
+                <p>alma.gonzalez24@gmail.com</p>
+            </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <a href="tel:678-949-3822">
+              <div class="text-center mb-5 mb-md-0">
+                <div class="text-primary mb-4">
+                  <span>
+                    <i class="fas fa-phone fa-3x"></i>
+                  </span>
+                </div>
+            </a>
+            <a href="tel:678-949-3822">
+                <h4 class="mb-3">Call/Text me @:</h4>
+                <p>+1 678.949.3822</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a target="_blank" href="https://www.google.com/maps/place/Atlanta,+GA/@33.7676334,-84.561034,11z/data=!4m5!3m4!1s0x88f5045d6993098d:0x66fede2f990b630b!8m2!3d33.7489954!4d-84.3879824">
+              <div class="text-center mb-5 mb-md-0">
+                <div class="text-primary mb-4">
+                  <span>
+                    <i class="fas fa-map-marker fa-3x"></i>
+                  </span>
+                </div>
+            </a>
+            <a target="_blank" href="https://www.google.com/maps/place/Atlanta,+GA/@33.7676334,-84.561034,11z/data=!4m5!3m4!1s0x88f5045d6993098d:0x66fede2f990b630b!8m2!3d33.7489954!4d-84.3879824">
+                <h4 class="mb-3">Locate me @:</h4>
+                <p>Atlanta, Georgia</p>
+              </div>
+            </a>
+          </div>
+          <!-- <div id="map"></div> -->
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-dark text-white p-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3 text-center my-3 py-3">
+                  <a href="#home" class="slide-home">
+                      <img src="" alt="Alma Gonzalez">
+                  </a>
+              </div>
+              <div class="col-md-6 text-center my-3 py-3 footer-links">
+                  <a href="#home" class="slide-home mx-2">Home</a>
+                  <a href="#services" class="slide-services mx-2">Services</a>
+                  <a href="#portfolio" class="slide-portfolio mx-2">Portfolio</a>
+                  <a href="#about" class="slide-about mx-2">About</a>
+                  <a href="#contact" class="slide-contact mx-2">Contact</a>
+              </div>
+              <div class="col-md-3 text-center my-3 py-3 footer-icons">
+                  <a href="https://github.com/agonzalez26">
+                      <i class="fab fa-github mx-3"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/almagonzalez26/">
+                      <i class="fab fa-linkedin mx-3"></i>
+                  </a>
+                  <a href="https://instagram.com/this.almagonzalez">
+                      <i class="fab fa-instagram mx-3"></i>
+                  </a>
+              </div>
+          </div>
+
+
+        <!-- <ul class=" footer-icons list-unstyled list-inline">
+            <li class="list-inline-item">
+                <a href="https://github.com/agonzalez26">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/almagonzalez26/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://instagram.com/this.almagonzalez">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul> -->
+        <!-- <div class="row">
+            <div class="col float-right">
+              <ul class="flex-row" style="background-color:orange;" id="socials">
+                  <li class="mx-3">
+                      <a href="https://github.com/agonzalez26" class="nav-link">
+                          <i class="fab fa-github"></i>
+                          <span class="d-lg-none ml-2"></span>
+                      </a>
+                  </li>
+                  <li class="mx-3">
+                      <a href="https://www.linkedin.com/in/almagonzalez26/" class="nav-link">
+                          <i class="fab fa-linkedin"></i>
+                          <span class="d-lg-none ml-2"></span>
+                      </a>
+                  </li>
+                  <li class="mx-3">
+                      <a href="https://instagram.com/this.almagonzalez" class="nav-link">
+                          <i class="fab fa-instagram"></i>
+                          <span class="d-lg-none ml-2"></span>
+                      </a>
+                  </li>
+              </ul>
+            </div>
+          <div class="col">
+            <a href="#home" class="slide-home">Home</a>
+            <a href="#services" class="slide-services">Services</a>
+            <a href="#portfolio" class="slide-portfolio">Porfolio</a>
+            <a href="#about" class="slide-about">About</a>
+            <a href="#contact" class="slide-contact">Contact</a>
+          </div>
+          <div class="col" style="background-color:green;">
+            Designed by me - 2018
+          </div>
+        </div> -->
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      $(function () {
+          $(".slide-home").click(function () {
+              $("html, body").animate({
+                  scrollTop: $("#home").offset().top}, "1000");
+              return false
+          })
+      });
+      $(function () {
+          $(".slide-contact").click(function () {
+              $("html, body").animate({
+                  scrollTop: $("#contact").offset().top}, "1000");
+              return false
+          })
+      });
+      $(function () {
+          $(".slide-portfolio").click(function () {
+              $("html, body").animate({
+                  scrollTop: $("#portfolio").offset().top}, "1000");
+              return false
+          })
+      });
+      $(function () {
+          $(".slide-services").click(function () {
+              $("html, body").animate({
+                  scrollTop: $("#services").offset().top}, "1000");
+              return false
+          })
+      });
+      $(function () {
+          $(".slide-about").click(function () {
+              $("html, body").animate({
+                  scrollTop: $("#about").offset().top}, "1000");
+              return false
+          })
+      });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
